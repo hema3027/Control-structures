@@ -1,0 +1,14 @@
+#python
+a=int(input())
+sum==0
+rev=0
+while(a>0):
+   b=a%10
+   rev=rev*10+b
+   a=a//10
+   print(rev)
+   print(a)
+if sum==rev:
+    print("it is a palindrome")
+else:
+    print("it is not a palindrome")
