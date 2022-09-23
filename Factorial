@@ -1,0 +1,12 @@
+n=int(input())
+i=1
+while(True):
+    if(n%i==0):
+        n=n//i
+    else:
+     break
+    i=i+1
+if(n==1):
+    print("Yes")
+else:
+    print("No")
